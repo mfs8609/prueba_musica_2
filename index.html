@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prueba Api</title>
+	<meta charset="utf-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">
+	        <img alt="Brand" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Last.fm_icon.png" height="30" width="30">
+	      </a>
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="container">
+		<div class="col-md-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">Música</div>
+				<div class="panel-body">
+
+					<div class="row">
+						<div class="col-md-12">
+							<div class="navbar-form navbar-right">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Buscar..." id="search">
+									<button class="form-control" onclick="search()">Buscar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-md-12" id="search-content">
+						<ul></ul>
+						</div>
+					</div>
+			
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	
+	<script type="text/javascript" src="functions.js"></script>
+
+</body>
+</html>
